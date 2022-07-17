@@ -1,4 +1,3 @@
 ### I am in
 
-The project for creating a mobile application allowing you to create events, 
-invite friends
+A project to create a mobile app that allows you to create events and invite your friends to them
