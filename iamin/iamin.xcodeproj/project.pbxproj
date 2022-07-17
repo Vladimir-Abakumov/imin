@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF031DC57E95D0EEFC4F7FE /* iaminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF03309C2E492C49A8BDC5B /* iaminApp.swift */; };
+		AFF03374CE658A4248D4CE52 /* iaminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF039F47C118EF8AF7B7BDC /* iaminTests.swift */; };
+		AFF0347E075568D12970582F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF039FE7BC4E25386B632F6 /* Assets.xcassets */; };
+		AFF03542C8F9498D99502B5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF03FB3AC2E4BAFDDB19804 /* ContentView.swift */; };
+		AFF035CDE45138DFD4710AA7 /* iaminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF03CED4767F704133A4D5F /* iaminUITestsLaunchTests.swift */; };
+		AFF0364C44CD175124060580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF03197789D2E38DC43834B /* Preview Assets.xcassets */; };
+		AFF03D96C7BF26353153CBE2 /* iaminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF03A1550D461E9F41BD241 /* iaminUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF03735935DE91B321F3F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF0343E60C4F6D2E8A9C97A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF0352FD791F0F96CE10780;
+			remoteInfo = iamin;
+		};
+		AFF03BE6233CC143D9ADAD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF0343E60C4F6D2E8A9C97A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF0352FD791F0F96CE10780;
+			remoteInfo = iamin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFF03197789D2E38DC43834B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFF03243EF044CD1531B07FA /* iaminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iaminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF03309C2E492C49A8BDC5B /* iaminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iaminApp.swift; sourceTree = "<group>"; };
+		AFF039F47C118EF8AF7B7BDC /* iaminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iaminTests.swift; sourceTree = "<group>"; };
+		AFF039FE7BC4E25386B632F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF03A1550D461E9F41BD241 /* iaminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iaminUITests.swift; sourceTree = "<group>"; };
+		AFF03CED4767F704133A4D5F /* iaminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iaminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFF03DD47CF042D9E598872C /* iamin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iamin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF03E5CBF42232593F3820F /* iaminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iaminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF03FB3AC2E4BAFDDB19804 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF035AF469118CA6C0DE2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF035EA992D5A8F6D882615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF03D02CF8F9EE8C879EB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF030F46A5E5F5BB20FEC80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFF03197789D2E38DC43834B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFF0340C74E5AEA4BCEBECC3 /* iaminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF03A1550D461E9F41BD241 /* iaminUITests.swift */,
+				AFF03CED4767F704133A4D5F /* iaminUITestsLaunchTests.swift */,
+			);
+			path = iaminUITests;
+			sourceTree = "<group>";
+		};
+		AFF0349B83028890379378F4 = {
+			isa = PBXGroup;
+			children = (
+				AFF03AC93F386E4C865E8A80 /* Products */,
+				AFF03BD9AED31DD719C1AAEA /* iamin */,
+				AFF03806D27D236D45BB624D /* iaminTests */,
+				AFF0340C74E5AEA4BCEBECC3 /* iaminUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF03806D27D236D45BB624D /* iaminTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF039F47C118EF8AF7B7BDC /* iaminTests.swift */,
+			);
+			path = iaminTests;
+			sourceTree = "<group>";
+		};
+		AFF03AC93F386E4C865E8A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF03DD47CF042D9E598872C /* iamin.app */,
+				AFF03E5CBF42232593F3820F /* iaminTests.xctest */,
+				AFF03243EF044CD1531B07FA /* iaminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF03BD9AED31DD719C1AAEA /* iamin */ = {
+			isa = PBXGroup;
+			children = (
+				AFF039FE7BC4E25386B632F6 /* Assets.xcassets */,
+				AFF030F46A5E5F5BB20FEC80 /* Preview Content */,
+				AFF03309C2E492C49A8BDC5B /* iaminApp.swift */,
+				AFF03FB3AC2E4BAFDDB19804 /* ContentView.swift */,
+			);
+			path = iamin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF0352FD791F0F96CE10780 /* iamin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF039A2F33ACA489EA782F0 /* Build configuration list for PBXNativeTarget "iamin" */;
+			buildPhases = (
+				AFF031FA79F46D05EFDF5808 /* Sources */,
+				AFF035EA992D5A8F6D882615 /* Frameworks */,
+				AFF03A436F9C1B45564D7547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iamin;
+			productName = iamin;
+			productReference = AFF03DD47CF042D9E598872C /* iamin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF03D9B71073BD9BD836732 /* iaminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF0318D0B44709851642F55 /* Build configuration list for PBXNativeTarget "iaminTests" */;
+			buildPhases = (
+				AFF0302E5E7902E2F29559BF /* Sources */,
+				AFF03D02CF8F9EE8C879EB5C /* Frameworks */,
+				AFF036030DD993303EFE3A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF03EB5868199A50BB97F02 /* PBXTargetDependency */,
+			);
+			name = iaminTests;
+			productName = iaminTests;
+			productReference = AFF03E5CBF42232593F3820F /* iaminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFF03F4591F04ABACC8420E6 /* iaminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF0393BF55F91E83EAF2E66 /* Build configuration list for PBXNativeTarget "iaminUITests" */;
+			buildPhases = (
+				AFF03B32C1CEEBD6B317C411 /* Sources */,
+				AFF035AF469118CA6C0DE2FE /* Frameworks */,
+				AFF032207E89447BE8DA5D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF032A9905430E100151876 /* PBXTargetDependency */,
+			);
+			name = iaminUITests;
+			productName = iaminUITests;
+			productReference = AFF03243EF044CD1531B07FA /* iaminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF0343E60C4F6D2E8A9C97A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AFF03D31DC299D81E0310AF4 /* Build configuration list for PBXProject "iamin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFF0349B83028890379378F4;
+			productRefGroup = AFF03AC93F386E4C865E8A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF0352FD791F0F96CE10780 /* iamin */,
+				AFF03D9B71073BD9BD836732 /* iaminTests */,
+				AFF03F4591F04ABACC8420E6 /* iaminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF032207E89447BE8DA5D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF036030DD993303EFE3A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF03A436F9C1B45564D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF0347E075568D12970582F /* Assets.xcassets in Resources */,
+				AFF0364C44CD175124060580 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF0302E5E7902E2F29559BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF03374CE658A4248D4CE52 /* iaminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF031FA79F46D05EFDF5808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF031DC57E95D0EEFC4F7FE /* iaminApp.swift in Sources */,
+				AFF03542C8F9498D99502B5C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF03B32C1CEEBD6B317C411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF03D96C7BF26353153CBE2 /* iaminUITests.swift in Sources */,
+				AFF035CDE45138DFD4710AA7 /* iaminUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF032A9905430E100151876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF0352FD791F0F96CE10780 /* iamin */;
+			targetProxy = AFF03BE6233CC143D9ADAD59 /* PBXContainerItemProxy */;
+		};
+		AFF03EB5868199A50BB97F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF0352FD791F0F96CE10780 /* iamin */;
+			targetProxy = AFF03735935DE91B321F3F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFF0358AD75D6DF3D1C281C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iamin.app/iamin";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iaminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AFF035E9CB2BDBD2746162FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF036EA2216A7264499C267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iamin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iamin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF038018A0F34EC13D5563C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iamin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iamin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF03A79959DD72FE834901E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iaminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iamin;
+			};
+			name = Release;
+		};
+		AFF03BBFD565FD19D35EB9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF03BD667929980A746E0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iaminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iamin;
+			};
+			name = Debug;
+		};
+		AFF03E3FA9982F1FFA0484CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iamin.app/iamin";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirabakumov.iaminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF0318D0B44709851642F55 /* Build configuration list for PBXNativeTarget "iaminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF0358AD75D6DF3D1C281C4 /* Debug */,
+				AFF03E3FA9982F1FFA0484CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFF0393BF55F91E83EAF2E66 /* Build configuration list for PBXNativeTarget "iaminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF03BD667929980A746E0D8 /* Debug */,
+				AFF03A79959DD72FE834901E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFF039A2F33ACA489EA782F0 /* Build configuration list for PBXNativeTarget "iamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF036EA2216A7264499C267 /* Debug */,
+				AFF038018A0F34EC13D5563C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFF03D31DC299D81E0310AF4 /* Build configuration list for PBXProject "iamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF035E9CB2BDBD2746162FD /* Debug */,
+				AFF03BBFD565FD19D35EB9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF0343E60C4F6D2E8A9C97A /* Project object */;
+}
